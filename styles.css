@@ -13,4 +13,20 @@ table:{
 	width:60%;
 	margin-bottom:20px;
 }
+th, td{
+	border:1px solid #666;
+	padding:8px;
+	text-align:left;
+}
+th{
+	background-color:#ddd;
+}
 
+ol{
+	list-style-type:decimal;
+	margin-left:20px;
+}
+img, video, audio{
+	display:black;
+	margin-top:10px;
+}
