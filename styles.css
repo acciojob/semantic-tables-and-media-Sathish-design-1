@@ -1,32 +1,36 @@
-
-/* Your CSS Code here. */
-body{
-	font-family:Arial, sans-serif;
-	margin:20px;
-	background-color:#f9f9f9;
-}
-h2{
-	color:#333;
-}
-table:{
-	border-collapse:collapse;
-	width:60%;
-	margin-bottom:20px;
-}
-th, td{
-	border:1px solid #666;
-	padding:8px;
-	text-align:left;
-}
-th{
-	background-color:#ddd;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 40px;
 }
 
-ol{
-	list-style-type:decimal;
-	margin-left:20px;
+h2, h3 {
+  color: #333;
 }
-img, video, audio{
-	display:black;
-	margin-top:10px;
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #888;
+  text-align: center;
+  padding: 8px;
+}
+
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+img, video, audio {
+  margin-top: 10px;
+  border-radius: 6px;
 }
