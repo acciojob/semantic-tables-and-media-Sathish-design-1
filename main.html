@@ -5,48 +5,63 @@
 </head>
 <body>
   <!-- entire body written by student -->
+	<h1>Class Roll & Media Examples</h1>
 
-  <h2>Student Roll Numbers and Names</h2>
-
-  <table>
+  <table aria-describedby="table-desc">
+    <caption>Student roll list</caption>
     <thead>
       <tr>
-        <th>Roll Number</th>
-        <th>Name</th>
+        <th scope="col">Roll Number</th>
+        <th scope="col">Name</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>101</td>
-        <td>Riya Sharma</td>
+        <td>1</td>
+        <td>Asha Kumar</td>
       </tr>
       <tr>
-        <td>102</td>
-        <td>Arjun Patel</td>
+        <td>2</td>
+        <td>Sathish B</td>
       </tr>
       <tr>
-        <td>103</td>
-        <td>Neha Verma</td>
+        <td>3</td>
+        <td>Meera Patel</td>
       </tr>
     </tbody>
   </table>
 
-  <h3>List of Medias</h3>
+  <h2>List of medias</h2>
+
   <ol>
     <li>
-      <img src="https://picsum.photos/id/123/200/300" alt="Random Sample Image">
+      <div class="media-item">
+        <p><strong>Image:</strong></p>
+        <img src="https://picsum.photos/id/123/200/300" alt="Random sample photo from Picsum (id 123)">
+      </div>
     </li>
+
     <li>
-      <video controls>
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
-      </video>
+      <div class="media-item">
+        <p><strong>Video:</strong></p>
+        <video controls preload="metadata">
+          <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
     </li>
+
     <li>
-      <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" >
-      </audio>
+      <div class="media-item">
+        <p><strong>Audio:</strong></p>
+        <audio controls preload="metadata">
+          <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidopter.ogg" type="audio/ogg">
+          Your browser does not support HTML5 audio.
+        </audio>
+      </div>
     </li>
   </ol>
+
 
   <script type="text/javascript" src="./script.js"></script>
 </body>
