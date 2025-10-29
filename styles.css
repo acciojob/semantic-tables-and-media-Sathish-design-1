@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 50%;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+ol {
+  width: 60%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  margin-bottom: 20px;
+}
