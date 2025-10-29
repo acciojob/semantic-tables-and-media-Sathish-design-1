@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>HTML Media List Assignment</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- entire body written by student -->
-	<h1>Class Roll & Media Examples</h1>
-
-  <table aria-describedby="table-desc">
-    <caption>Student roll list</caption>
+  <!-- Table Section -->
+  <table>
+    <caption>Roll Numbers Table</caption>
     <thead>
       <tr>
-        <th scope="col">Roll Number</th>
-        <th scope="col">Name</th>
+        <th>Roll Number</th>
+        <th>Name</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1</td>
-        <td>Asha Kumar</td>
+        <td>101</td>
+        <td>John Doe</td>
       </tr>
       <tr>
-        <td>2</td>
-        <td>Sathish B</td>
+        <td>102</td>
+        <td>Jane Smith</td>
       </tr>
       <tr>
-        <td>3</td>
-        <td>Meera Patel</td>
+        <td>103</td>
+        <td>Mark Lee</td>
       </tr>
     </tbody>
   </table>
 
-  <h2>List of medias</h2>
-
+  <!-- Media List Section -->
+  <h2>List of Medias</h2>
   <ol>
     <li>
-      <div class="media-item">
-        <p><strong>Image:</strong></p>
-        <img src="https://picsum.photos/id/123/200/300" alt="Random sample photo from Picsum (id 123)">
-      </div>
+      <strong>Image:</strong><br>
+      <img src="https://picsum.photos/id/123/200/300" alt="Random Placeholder Image">
     </li>
-
     <li>
-      <div class="media-item">
-        <p><strong>Video:</strong></p>
-        <video controls>
-          <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-        </video>
-      </div>
+      <strong>Video:</strong><br>
+      <video width="320" height="240" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </li>
-
     <li>
-      <div class="media-item">
-        <p><strong>Audio:</strong></p>
-        <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidopter.ogg" type="audio/ogg">
-        </audio>
-      </div>
+      <strong>Audio:</strong><br>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
     </li>
   </ol>
-
 
   <script type="text/javascript" src="./script.js"></script>
 </body>
