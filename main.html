@@ -1,58 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>HTML Media List Assignment</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tables and Media</title>
 </head>
 <body>
-  <!-- Table Section -->
-  <table>
-    <caption>Roll Numbers Table</caption>
-    <thead>
-      <tr>
-        <th>Roll Number</th>
-        <th>Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>101</td>
-        <td>John Doe</td>
-      </tr>
-      <tr>
-        <td>102</td>
-        <td>Jane Smith</td>
-      </tr>
-      <tr>
-        <td>103</td>
-        <td>Mark Lee</td>
-      </tr>
-    </tbody>
-  </table>
+    <!-- Semantic Table -->
+    <table class="middle" border="1">
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Tarun</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Riya</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Mohit</td>
+            </tr>
+        </tbody>
+    </table>
 
-  <!-- Media List Section -->
-  <h2>List of Medias</h2>
-  <ol>
-    <li>
-      <strong>Image:</strong><br>
-      <img src="https://picsum.photos/id/123/200/300" alt="Random Placeholder Image">
-    </li>
-    <li>
-      <strong>Video:</strong><br>
-      <video width="320" height="240" controls>
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </li>
-    <li>
-      <strong>Audio:</strong><br>
-      <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-        Your browser does not support the audio element.
-      </audio>
-    </li>
-  </ol>
+    <!-- Heading between Table and Ordered List -->
+    <h2>List of medias</h2>
 
-  <script type="text/javascript" src="./script.js"></script>
+    <!-- Ordered List of Media -->
+    <ol>
+        <!-- First Item: Image -->
+        <li>
+            <img src="https://picsum.photos/id/123/200/300" alt="Random sample image">
+        </li>
+
+        <!-- Second Item: Video -->
+        <li>
+            <video width="320" height="240" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+
+        <!-- Third Item: Audio -->
+        <li>
+            <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio>
+        </li>
+    </ol>
 </body>
 </html>
